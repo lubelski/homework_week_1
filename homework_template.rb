@@ -31,7 +31,7 @@ puts "Problem 3: " + (reverse_sentence("The cat jumps over the dog") == "Dog the
 # 4) Write a function that reverses the letters of each word of a sentence in place
 
 def rev_in_place(sentence)
-  rev = sentence.reverse.split(' ').reverse.join(' ').capitalize
+  sentence.reverse.split(' ').reverse.join(' ').capitalize
 end
 
 puts "Problem 4: " + (rev_in_place("The cat jumps over the dog") == "Eht tac spmuj revo eht god").to_s
