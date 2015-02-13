@@ -20,7 +20,7 @@ puts "Problem 2: " + (capital_rev("Hello") == "Olleh").to_s
 # 3) Write a function that takes a sentence and reverses the order of the words and capitalizes the sentence correctly:
 
 def reverse_sentence(sentence)
-  # ... your code here ...
+  sentence.split(' ').reverse.join(' ').capitalize
 end
 
 puts "Problem 3: " + (reverse_sentence("The cat jumps over the dog") == "Dog the over jumps cat the").to_s
