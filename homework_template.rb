@@ -11,7 +11,8 @@ puts "Problem 1: " + (years_to_seconds(1) == 31536000).to_s
 # 2) Write a function that reverses a word and capitalizes the reversed word correctly:
 
 def capital_rev(word)
-  # ... your code here ...
+  word.reverse.capitalize
+
 end
 
 puts "Problem 2: " + (capital_rev("Hello") == "Olleh").to_s
