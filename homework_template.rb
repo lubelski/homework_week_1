@@ -1,4 +1,5 @@
-# Assignment 1:
+puts "Homework Assignment \#1"
+puts ''
 
 # 1) Write a function that takes a number of years and converts it to the number of seconds (assume 365 days in a year)
 
@@ -26,7 +27,6 @@ end
 puts "Problem 3: " + (reverse_sentence("The cat jumps over the dog") == "Dog the over jumps cat the").to_s
 
 # NOTE: Here are two functions that will help you: split, join
-
 
 # 4) Write a function that reverses the letters of each word of a sentence in place
 
